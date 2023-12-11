@@ -1,0 +1,29 @@
+{
+  "name": "fileurl2path",
+  "repository": "github:fabiospampinato/fileurl2path",
+  "description": "A tiny function for converting a file URL to a file path.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "file",
+    "url",
+    "path",
+    "convert"
+  ],
+  "devDependencies": {
+    "fava": "^0.3.1",
+    "tsex": "^3.0.1",
+    "typescript": "^5.3.3"
+  }
+}
