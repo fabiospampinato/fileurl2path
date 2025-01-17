@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/fileurl2path",
   "description": "A tiny function for converting a file URL to a file path.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
