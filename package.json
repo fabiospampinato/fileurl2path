@@ -2,6 +2,7 @@
   "name": "fileurl2path",
   "repository": "github:fabiospampinato/fileurl2path",
   "description": "A tiny function for converting a file URL to a file path.",
+  "license": "MIT",
   "version": "1.0.0",
   "type": "module",
   "main": "dist/index.js",
@@ -22,8 +23,8 @@
     "convert"
   ],
   "devDependencies": {
-    "fava": "^0.3.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.3.3"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
